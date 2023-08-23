@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { CardHeader, LeftSideBar, Navbar, TitleSection } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-row">
+      <div className="w-1/6">
+        <LeftSideBar />
+      </div>
+      <div className="w-5/6 bg-[#151A2E]">
+        <Navbar />
+        <div className="px-5 py-5 lg:px-10 top-10">
+          <TitleSection />
+          <CardHeader />
+        </div>
+      </div>
     </div>
   );
 }
