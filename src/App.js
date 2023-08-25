@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="w-full bg-[#151A2E]">
         <Navbar />
-        <div className="py-5 pr-3 pl-7 lg:pl-14">
+        <div className="py-5 px-7">
           <TitleSection />
           <CardHeader />
           <div className="flex flex-col gap-5 lg:gap-7 lg:flex-row">
