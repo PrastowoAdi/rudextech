@@ -27,7 +27,7 @@ const dataMenu = [
 function LeftSideBar() {
   const renderMain = useMemo(() => {
     return (
-      <section className="bg-[#171E37] h-full lg:p-5 px-3 py-4">
+      <section className="bg-[#171E37] h-full lg:p-5 px-3 py-4 fixed z-50">
         <div className="flex flex-row items-center justify-center gap-3 mb-10 lg:justify-start">
           <img src="/assets/logo.svg" alt="" className="w-8 lg:w-7" />
           <h1 className="hidden text-sm font-semibold text-white md:block">

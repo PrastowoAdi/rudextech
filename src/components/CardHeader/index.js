@@ -32,7 +32,7 @@ const data = [
 function CardHeader() {
   const renderMain = useMemo(() => {
     return (
-      <div className="grid w-full grid-cols-2 gap-5 py-10 lg:grid-cols-5 lg:gap-9">
+      <div className="grid w-full grid-cols-2 gap-5 py-5 mt-5 lg:grid-cols-5 lg:gap-5">
         {data.map((item, idx) => (
           <CardItem
             key={idx}
